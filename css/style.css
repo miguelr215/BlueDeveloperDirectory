@@ -1,0 +1,271 @@
+/*****************************************
+BASE SETUP
+*****************************************/
+
+* {
+    margin: 0 auto 0 auto;
+    text-align: left;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    background-color: #1c478e;
+    background-image: url(../images/background.png); 
+    background-repeat: repeat-x;
+}
+
+a {
+    text-decoration: none;
+}
+
+#container {
+    width: 960px;
+}
+
+table, tr, td, th {
+    margin: 0;
+}
+
+table {
+    padding: 10px;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    padding: 5px 20px;
+}
+
+/*****************************************
+HEADER
+*****************************************/
+
+#header {
+    width: 960px;
+    height: 85px;
+}
+
+#header h1 {
+    color: #ffffff;
+    float: left;
+    font-size: 43px;
+    padding: 20px 0 0 20px;
+}
+
+#header h2 {
+    float: right;
+    color: #A9D1FA;
+    padding: 40px 20px 0 0;
+}
+
+.blue-text {
+    color: #67A0F5;
+}
+
+.white-text {
+    color: #ffffff;
+}
+
+/*****************************************
+NAVIGATION
+*****************************************/
+
+#menu {
+    display: block;
+    float: left;
+    clear: both;
+    width: 960px;
+    height: 54px;
+}
+
+#menu ul {
+    padding: 0;  /*most browsers add 10px padding default to unordered lists*/
+    width: 960px;
+    padding-top: 18px;
+}
+
+.menuitem {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.menuitem a, 
+.menuitem a:visited {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 13px 0 13px;
+}
+
+/*****************************************
+LEFT MENU
+*****************************************/
+
+#leftmenu {
+    float: left;
+    width: 190px;
+    background-color: #1c478e;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 15px 20px 10px 10px;
+}
+
+#leftmenu ul {
+    padding: 0;
+    list-style: none;
+}
+
+#leftmenu h3 {
+    padding: 0;
+    color: #ffffff;
+    padding-bottom: 8px;
+    font-size: 16px;
+    border-bottom: 2px solid #ffffff;
+}
+
+#leftmenu li {
+    padding: 15px 0 8px 0;
+    list-style: none;
+    border-bottom: 1px dashed #ffffff;
+}
+
+#leftmenu a, 
+#leftmenu a:visited {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+aside {
+    color: #fff;
+}
+
+aside input[type="text"],
+aside input[type="email"] {
+    margin-bottom: 10px;
+}
+
+aside p {
+    margin: 5px 0;
+    font-size: 12px;
+}
+/*****************************************
+CONTENT
+*****************************************/
+
+#content {
+    display: block;
+    width: 680px;
+    float: left;
+    background-color: #ffffff;
+    border: 6px solid #1c478e;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+#content h2 {
+    margin-bottom: 7px;
+}
+
+#content h3 {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 0;
+    color: #054dbc;
+}
+
+.float {
+    float: right;
+    margin: 5px;
+}
+
+/*****************************************
+LATEST DEVELOPERS
+*****************************************/
+
+.developer {
+    width: 170px;
+    float: right;
+}
+
+.developer ul {
+    list-style: none;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.developer ul li {
+    list-style: none;
+    line-height: 1.5em;
+}
+
+.developer h4 {
+    color: #054dbc;
+    margin-bottom: 3px;
+}
+
+/*****************************************
+BROWSE PAGE
+*****************************************/
+
+.dev-table {
+    font-size: 110%;
+}
+
+.dev-table th,
+.dev-table td, 
+.dev-table tr {
+    border-bottom: 1px dashed #3f3f3f;
+}
+
+/*****************************************
+CONTACT PAGE
+*****************************************/
+
+.contact_form {
+    font-size: 110%;
+}
+
+.contact_form p {
+    margin: 12px 0;
+}
+
+.contact_form label {
+    display: inline-block;
+    width: 150px;
+}
+
+/*****************************************
+ABOUT PAGE
+*****************************************/
+
+.buttonPanel {
+    width: 400px;
+}
+
+/*****************************************
+NEWSLETTER
+*****************************************/
+
+#displayname {
+    color: #fff;
+    float: right;
+    font-weight: bold;
+    font-size: 18px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
